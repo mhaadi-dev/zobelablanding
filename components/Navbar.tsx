@@ -14,9 +14,10 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-8">
           <Link href="/" className="text-gray-700 hover:text-purple-600 transition">Home</Link>
           <Link href="/about" className="text-gray-700 hover:text-purple-600 transition">About</Link>
-          <Link href="/services" className="text-gray-700 hover:text-purple-600 transition">Services</Link>
+          <Link href="/team" className="text-gray-700 hover:text-purple-600 transition">Team</Link>
+          {/* <Link href="/services" className="text-gray-700 hover:text-purple-600 transition">Services</Link>
           <Link href="/academy" className="text-gray-700 hover:text-purple-600 transition">Academy</Link>
-          <Link href="#waitlist" className="text-gray-700 hover:text-purple-600 transition">Waitlist</Link>
+          <Link href="#waitlist" className="text-gray-700 hover:text-purple-600 transition">Waitlist</Link> */}
         </div>
 
         <button className="md:hidden">
